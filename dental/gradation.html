@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文字にグラデーションをかける</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+background-color: #000;
+}
+header{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h1{
+color: transparent;
+font-size: 60px;
+background-clip: text;
+background-image: linear-gradient(90deg,rgba(212, 114, 137, 1) 0%, rgba(237, 192, 202, 1) 25%, rgba(18, 168, 201, 1) 54%, rgba(210, 128, 224, 1) 69%, rgba(200, 204, 90, 1) 100%);
+font-family: "Anton", sans-serif;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<header>
+  <h1>Lorem ipsum dolor sit amet.</h1>
+</header>
+  
+  
+</body>
+</html>
